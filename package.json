@@ -1,0 +1,30 @@
+{
+  "name": "husky-demo",
+  "version": "1.0.0",
+  "description": "A demo of Husky installation for the lovely Sep cohort",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "prepare": "husky install",
+    "lint": "eslint ./ --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dentednerd/husky-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dentednerd/husky-demo/issues"
+  },
+  "homepage": "https://github.com/dentednerd/husky-demo#readme",
+  "devDependencies": {
+    "eslint": "^8.3.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jest": "^25.3.0",
+    "husky": "^7.0.4",
+    "jest": "^27.4.2"
+  }
+}
